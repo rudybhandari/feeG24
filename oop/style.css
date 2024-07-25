@@ -1,0 +1,15 @@
+.container{
+    height:100px;
+    background-color: aqua;
+    border:2px solid blue;
+    width:200px;
+}
+
+.container:hover{
+    transition-duration: 1s;
+    
+    height: 200px;
+    width: 400px;
+    border:4px dashed darkgreen;
+    background-color: blueviolet;
+}
